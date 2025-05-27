@@ -5,6 +5,6 @@
 
 
 
-body {
+body, html, head {
     background-color: #140f1a;
 }

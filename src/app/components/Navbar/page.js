@@ -14,8 +14,8 @@ function Navbar(){
                 className="h-auto w-[120px]"
                 />
             </div>        
-            <div className="flex space-x-6">
-                <Link href="/">Home</Link>
+            <div className="flex items-center justify-center ">
+                <Link className="bg-sky-900 disabled:hover:bg-sky-500" href="/">Home</Link>
                 <Link href="/vegas">Vegas Lines</Link>
                 <Link href="/trends">Trends</Link>
 
