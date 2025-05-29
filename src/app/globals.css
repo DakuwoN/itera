@@ -1,10 +1,8 @@
-@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
 
-
-
-body, html, head {
-    background-color: #140f1a;
+body {
+    background-color: blue;
 }

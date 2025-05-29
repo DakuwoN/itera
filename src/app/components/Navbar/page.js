@@ -4,24 +4,15 @@ import Image from "next/image"
 function Navbar(){
     return (
         <>
-        <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md"> 
-            <div className="flex items-center">
-                <Image
-                src="/itera2.png"
-                alt="Itera"
-                width={120}
-                height={40}
-                className="h-auto w-[120px]"
-                />
-            </div>        
-            <div className="flex items-center justify-center ">
-                <Link className="bg-sky-900 disabled:hover:bg-sky-500" href="/">Home</Link>
-                <Link href="/vegas">Vegas Lines</Link>
-                <Link href="/trends">Trends</Link>
-
-            </div>
+        <nav className="flex flex-row justify-between">
+            <Image src="/itera2.png" alt="Itera2" width={100} height={300}/>
         
-        </nav> 
+            <Link href="/home">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/trends">Trends</Link>
+            <Link href="/vegas">Vegas</Link>
+            <Link href="/news">News</Link>
+        </nav>
         </>
     )
 }
